@@ -44,16 +44,16 @@ public class Hero : MonoBehaviour {
     //    pickup1 = Instantiate(pickuppf1, gameObject.transform.position + new Vector3(0, 30, 0), Quaternion.identity);
 
     //}
-    //if (Input.GetKey("p"))
-    //{
+    if (Input.GetKey("p"))
+{
 
-    //    camera.GetComponent<Main>().addScore(50);
+     camera.GetComponent<Main>().addScore(50);
 
-    //}
+}
 
 
 
-    if (Input.GetKeyDown("g"))
+    if (Input.GetKeyDown("l"))
     {
       if (weaponState == 0)
       {
@@ -80,11 +80,11 @@ public class Hero : MonoBehaviour {
       }
 
     }
-    if (Input.GetKeyDown("x"))
+    if (Input.GetKeyDown("j"))
     {
       weapon.vod();
     }
-      if (Input.GetKey("z"))
+      if (Input.GetKey("k"))
       {
         gun.GetComponent<weapon>().ultmate();
       }

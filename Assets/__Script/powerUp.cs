@@ -87,16 +87,16 @@ public class powerUp : MonoBehaviour {
     public virtual void setType(string name) { }
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
 
-        if (collision.collider.tag == "Player")
+        if (collision.tag == "Player")
 
         {
 
             Debug.Log("Hit");
             Destroy(gameObject);
-            setType(collision.collider.name);
+            setType(collision.name);
             
         }
 

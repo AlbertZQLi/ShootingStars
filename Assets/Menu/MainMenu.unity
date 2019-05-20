@@ -816,8 +816,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Motivation:\n\tUP:\t\t    Arrow Up     \n\tDOWN:\tArrow Down\n\tLEFT:\t\tArrow
-    Left\n\tRIGHT\t\tArrow Right\n\nActions:\n\tShooting:\t\t\t\tX\n\tSwitch Weapon:\tG\n\tUltimate:\t\t\t\tZ"
+  m_Text: "Movement:\n\tUP:\t\t    W\n\tDOWN:\tS\n\tLEFT:\t\tA\n\tRIGHT\t\tD\n\nActions:\n\tShooting:\t\t\t\tJ\n\tSwitch
+    Weapon:\tK\n\tUltimate:\t\t\t\tL"
 --- !u!222 &500398692
 CanvasRenderer:
   m_ObjectHideFlags: 0

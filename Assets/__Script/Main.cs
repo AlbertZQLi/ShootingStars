@@ -14,7 +14,7 @@ public class Main : MonoBehaviour {
     public GameObject enemy0PreFab;
     public int counter1;
     public int counter0;
-    int playerState = 2;
+    int playerState = 1;
     int score;
     int highScore;
 
